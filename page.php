@@ -21,7 +21,6 @@
 		</section>
 	</div>
 	</div>
-</div>
 
 		<?php endwhile; else : ?>
 

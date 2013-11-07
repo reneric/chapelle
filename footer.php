@@ -1,3 +1,4 @@
+
 <footer>
 	<nav>
 		<?php bones_footer_links(); ?>
@@ -12,7 +13,7 @@
 			www.archbishopchapelle.org</p>
 		</div>
 		<div class="large-4 columns" id="copyright">
-			<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri().'/library/img/chapelle-footer-logo.png'?>"></a>
+			<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri().'/library/img/chapelle-footer-logo.png' ?>"></a>
 			<p>2013 © Archbishop Chapelle High School</p>
 		</div>
 		<div class="large-4 columns"id="donate">
@@ -21,45 +22,10 @@
 	</div>
 	<div class="footer-gradient"></div>
 </footer>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
   <script src="<?php echo get_template_directory_uri();.'/library/js/script.js'?>"></script>
   <script src="<?php echo get_template_directory_uri();.'/library/js/foundation.min.js' ?>"></script>
-
-  
-   <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.alerts.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.clearing.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.cookie.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.forms.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.joyride.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.magellan.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.orbit.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.reveal.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.section.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.topbar.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.interchange.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="<?php echo get_template_directory_uri(); ?>/library/js/foundation/foundation.abide.js"></script>
-
   <script>
     $(document).foundation();
   </script>
